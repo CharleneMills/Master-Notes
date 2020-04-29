@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Milonga&display=swap');
+
+.milonga{
+    font-family: 'Milonga', cursive;
+}
+
+body{
+    font-family: Arial;
+    margin: 0px;
+}
+
+h1, h2{
+    font-weight: bold;
+}
+
+h1, h2, h3{
+    margin: 10px 0px 20px 0px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 28px;
+}
+
+h3{
+    font-size: 24px;
+}
+
+header{
+    margin: 0px;
+    background-color: black;
+    padding: 20px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1400px;
+    padding: 20px;
+}
+
+header h1{
+    margin: 0px;
+    color: white;
+}
+
+nav{
+    background-color: darkcyan;
+    padding: 20px;
+}
+
+nav ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+nav ul li{
+    display: inline-block;
+}
+
+nav ul li a{
+    padding: 10px 35px 10px 20px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav ul li a:before{
+    content: '> ';
+    color: white;    
+    width: 0;
+    height: 0;
+}
+
+nav ul li a.active{
+    background-color: #f7b03c;
+}
+
+nav ul li a.active:before, nav ul li a:hover:before{
+    content: '> ';    
+    width: 0;
+    height: 0;
+    color: black;
+}
+
+nav ul li a:hover{
+    background-color: #f7b03c;
+}
+
+.col-6{
+    float: left;
+    width: 45%;
+    margin: 0px 20px 20px 0px;
+    border: 3px solid lightseagreen;
+    padding: 10px;
+}
+
+img#aloy{
+   border: 5px solid #f7b03c;
+}
+
+.text-32{
+    font-size: 32px;
+}
+
+.padding-40{
+    padding: 40px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+
+.flag {
+    position: relative;
+    top: 0;
+    left: -10px;
+    background-color: cadetblue;
+    color: white;
+    padding: 10px 30px 10px 30px;
+    margin-left: -20px;
+}
+
+.flag:before {
+    content: '';
+    position: absolute;
+    top: -17px;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-bottom: 17px solid #305f61;
+    border-left: 17px solid transparent;
+}
