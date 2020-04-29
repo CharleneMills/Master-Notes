@@ -3,6 +3,7 @@
     padding: 10px 20px;
     text-decoration: none;
     display: inline-block;
+    color: black;
 }
 
 .button:hover{
@@ -42,4 +43,51 @@
 
 .button2:hover:after{
     border-left: 19px solid darksalmon;
+}
+
+.button3{
+    border-left: 5px solid rebeccapurple;
+    background-color: silver;
+}
+
+.button3:hover{
+    border-left: 5px solid silver;
+    background-color: rebeccapurple;
+    color: white;
+}
+
+.button4{
+    border-radius: 7px;
+    background-color: lightseagreen;
+    color: black;
+    font-weight: bold;
+}
+
+.button4:hover{
+    background-color: seagreen;
+    color: white;
+}
+
+.button5 {
+    border-radius: 7px;
+    background-color: #FF9800;
+    color: white;
+    position: relative;
+    padding-left: 50px;
+    font-size: 22px;
+}
+
+.button5:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content:'\f2dc';
+    font-family: fontAwesome;
+    padding: 10px;
+    border-right: 3px solid white;
+}
+
+.button5:hover{
+    background-color: darkorange;
+    color: white;
 }
