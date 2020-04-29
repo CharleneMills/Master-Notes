@@ -51,19 +51,35 @@
 
 .h-border-bottom{
     border-bottom: 3px solid green;
-    margin: 40px 0px;
+    margin: 60px 0px;
 }
 
 .h-border-bottom2{
     border-bottom: 3px dashed rebeccapurple;
-    margin: 40px 0px;
+    margin: 60px 0px;
+}
+
+.h-border-bottom3{
+    position: relative;
+    margin: 60px 0px;
+    text-align: center;
+}
+
+.h-border-bottom3:after {
+    content: '';
+    width: 150px;
+    position: absolute;
+    height: 7px;
+    background-color: black;
+    bottom: -17px;
+    left: 34%;
 }
 
 .icon-heading{
+    border: 1px solid darkred;
     border-left: 7px solid darkred;
-    margin: 40px 0px;
+    margin: 60px 0px;
     padding: 10px;
-    background-color: silver;
 }
 
 .icon-heading i{
@@ -74,5 +90,5 @@
     background-color: black;
     color: white;
     padding: 10px;
-    margin: 40px 0px;
+    margin: 60px 0px;
 }
