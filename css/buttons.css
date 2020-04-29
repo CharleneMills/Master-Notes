@@ -1,0 +1,45 @@
+.button {
+    margin: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button:hover{
+    text-decoration: none;
+    color: inherit;
+}
+
+.button1{
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+}
+
+.button2{
+    background-color: darkslateblue;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+
+.button2:hover{
+    color: white;
+    background-color: darksalmon;
+}
+
+.button2:after{
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: 19px solid darkslateblue;
+    border-bottom: 22px solid transparent;
+    border-top: 22px solid transparent;
+    top: 0;
+    right: -19px;
+}
+
+.button2:hover:after{
+    border-left: 19px solid darksalmon;
+}
