@@ -48,3 +48,31 @@
     border-bottom: 11px solid #5f470c;
     border-right: 17px solid transparent;
 }
+
+.h-border-bottom{
+    border-bottom: 3px solid green;
+    margin: 40px 0px;
+}
+
+.h-border-bottom2{
+    border-bottom: 3px dashed rebeccapurple;
+    margin: 40px 0px;
+}
+
+.icon-heading{
+    border-left: 7px solid darkred;
+    margin: 40px 0px;
+    padding: 10px;
+    background-color: silver;
+}
+
+.icon-heading i{
+    color: darkred;
+}
+
+.icon-heading2{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 40px 0px;
+}
