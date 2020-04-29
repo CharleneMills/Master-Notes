@@ -1,0 +1,50 @@
+.flag-home{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px 0px;
+}
+
+.flag {
+    position: relative;
+    margin: 10px 0px 10px -38px;
+    background-color: cadetblue;
+    color: white;
+    padding: 10px 30px 10px 30px; 
+}
+
+.flag:before {
+    content: '';
+    position: absolute;
+    top: -11px;
+    left: 0px;
+    width: 0;
+    height: 0;
+    border-bottom: 11px solid #305f61;
+    border-left: 17px solid transparent;
+}
+
+
+.flag-home2{
+    border-radius: 7px;
+}
+
+.flag2{
+    margin-right: -38px;
+    background-color: goldenrod;
+    color: black;
+}
+
+.flag2:before{
+    border-bottom: 11px solid #5f470c;
+}
+
+.flag2:after {
+    content: '';
+    position: absolute;
+    top: -11px;
+    right: 0px;
+    width: 0;
+    height: 0;
+    border-bottom: 11px solid #5f470c;
+    border-right: 17px solid transparent;
+}
