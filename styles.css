@@ -93,7 +93,7 @@ nav ul li a:hover{
 .col-6{
     float: left;
     width: 45%;
-    margin: 0px 20px 20px 0px;
+    margin: 0px 35px 20px 0px;
     border: 3px solid lightseagreen;
     padding: 10px;
 }
@@ -128,10 +128,10 @@ img#aloy{
 .flag:before {
     content: '';
     position: absolute;
-    top: -17px;
-    left: 0;
+    top: -11px;
+    left: 0px;
     width: 0;
     height: 0;
-    border-bottom: 17px solid #305f61;
+    border-bottom: 11px solid #305f61;
     border-left: 17px solid transparent;
 }
