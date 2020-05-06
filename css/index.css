@@ -1,0 +1,19 @@
+.button {
+    margin: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+}
+
+.button4{
+    border-radius: 7px;
+    background-color: lightseagreen;
+    color: black;
+    font-weight: bold;
+}
+
+.button4:hover{
+    background-color: seagreen;
+    color: white;
+}
