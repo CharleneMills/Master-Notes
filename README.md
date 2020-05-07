@@ -1,5 +1,5 @@
 ## Description
-Just my best notes from class inluding examples!
+Just some of my coding notes and my built examples!
 
 Making this public in case others find it useful as well.
 
