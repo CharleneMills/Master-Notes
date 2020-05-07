@@ -6,3 +6,6 @@ Making this public in case others find it useful as well. Javascript examples wi
 For best viewing (website format) download and run on your local machine!
 
 Thanks!
+
+## Preview
+<img src="images/readme.png"/>
