@@ -1,3 +1,9 @@
+
+section {
+    padding: 40px 0px;
+}
+
+
 .sticky {
     position: sticky;
     display: block;
