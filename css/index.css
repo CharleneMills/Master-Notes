@@ -16,4 +16,53 @@
 .button4:hover{
     background-color: seagreen;
     color: white;
+    text-decoration: none;
+}
+
+.webpage-box{
+    padding: 20px;
+    font-weight: bold;
+    box-shadow: 0px 0px 30px #6d6c6c;
+    width: 100%;
+    font-size: 16px;
+    position: relative;
+    text-decoration: none; 
+    color: black;
+}
+
+.webpage-box h2{
+    font-size: 22px;
+    margin: 10px 0px;
+    text-transform: uppercase;
+}
+
+.webpage-box img{
+    width: 100%;
+    border: 1px solid black;
+}
+
+
+.webpage-box:hover{
+    box-shadow: 0px 0px 30px black;
+}
+
+a.no-hover-line:hover{
+    text-decoration: none;
+}
+
+.webpage-box .learn-more{
+    position: relative;
+    font-size: 12px;
+}
+
+.webpage-box .learn-more:after{
+    content: '→';
+    position: absolute;
+    padding-left: 10px;
+    top: 0;
+    color: grey;
+}
+
+.row{
+    margin-top: 40px;
 }
