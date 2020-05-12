@@ -1,0 +1,109 @@
+body{
+    font-family: arial;
+    margin: 0px;
+}
+
+header, footer {
+    padding: 30px;
+    background-color: grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav p {
+    font-size: 22px;
+    color: white;
+    padding: 0px;
+    margin: 0px;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+header nav a:hover {
+    background-color: #ccc;
+    color: black;
+}
+
+
+.banner {
+    padding: 80px;
+    background-color: black;
+    text-align: center;
+}
+
+.banner h1 {
+    color: yellow;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.box{
+    padding: 80px;
+    margin: 20px 40px;
+}
+
+.greenbox{
+    background-color: #a4ffd7;
+    border-radius: 7px;
+}
+
+.yellowbox{
+    background-color: #ffc36c;
+}
+
+.box.text, .box.image{
+    padding: 20px;
+}
+
+.box.image img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #3a3a56;
+}
+
+.row{
+    clear: left;
+    box-sizing: border-box;
+}
+
+.col-4, .col-6 {
+    width: 100%;
+}
+
+.clearfix{
+    clear: both;
+}
+
+
+@media only screen and (min-width: 800px) {
+    
+    .col-4{
+        float: left;
+        width: 33%;
+    }
+
+    .col-6{
+        float: left;
+        width: 50%;
+    }
+
+    .row {
+        padding: 40px 0px;
+    }
+
+
+}
